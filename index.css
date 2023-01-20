@@ -20,6 +20,7 @@ h1 {
 p {
   color: #D5D4D8;
   margin: 0px;
+  margin-top: 5px;
   font-size: 17px;
   font-weight: lighter;
 }
@@ -31,4 +32,6 @@ button {
   border-radius: 5px;
   padding: 10px;
   margin-top: 30px;
+  cursor: pointer;
+  outline: none;
 }
