@@ -48,17 +48,12 @@ button {
 
 .password-suggestion {
   background-color: #273549;
-  width: 200px;
-  height: 40px;
+  width: 420px;
+  height: 50px;
   border-radius: 4px;
   margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 20px;
-  font-size: 16px;
-}
-
-.suggestion {
-  display: flex;
+  font-size: 20px;
 }
