@@ -3,29 +3,17 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let displayEl = document.getElementById("display-el");
 
-let generateEl = document.getElementById("generate-el")
-generateEl.addEventListener("click", function(){
-  let item1 = Math.floor(Math.random() * characters.length);
-  let item2 = Math.floor(Math.random() * characters.length);
-  let item3 = Math.floor(Math.random() * characters.length);
-  let item4 = Math.floor(Math.random() * characters.length);
-  let item5 = Math.floor(Math.random() * characters.length);
-  let item6 = Math.floor(Math.random() * characters.length);
-  let item7 = Math.floor(Math.random() * characters.length);
-  let item8 = Math.floor(Math.random() * characters.length);
-  let item9 = Math.floor(Math.random() * characters.length);
+passwordLength = 12
 
-  password = [
-    characters[item1],
-    characters[item2],
-    characters[item3],
-    characters[item4],
-    characters[item5],
-    characters[item6],
-    characters[item7],
-    characters[item8],
-    characters[item9]
-  ]
+function randomChar() {
+  let randChar = Math.floor(Math.random() * characters.length)
+  return characters[randChar]
+}
 
-  displayEl.textContent = password.join('');
-})
+function generatePassword() {
+  let password = ""
+  for ( i = 0; i < passwordLength; i++ ) {
+     password += randomChar()
+  }
+  displayEl.textContent = password
+}
