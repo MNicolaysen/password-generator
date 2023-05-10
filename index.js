@@ -6,6 +6,7 @@ passwordLength = 12
 
 let password = ""
 
+
 function randomChar() {
   let randChar = Math.floor(Math.random() * characters.length)
   return characters[randChar]
