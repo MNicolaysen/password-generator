@@ -66,9 +66,6 @@ button {
 }
 
 .copy-btn {
-  background-color: #2a3648;
-  margin-bottom: 32px;
-  margin-left: 370px;
   background: transparent;
 }
 
@@ -113,9 +110,5 @@ button {
 
   button i {
     font-size: 60px;
-  }
-
-  .copy-btn {
-    margin-left: 570px;
   }
 }
