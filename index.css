@@ -63,14 +63,17 @@ button {
 }
 
 .copy-btn {
-  background-color: #1F2937;
+  background-color: #2a3648;
+  margin-bottom: 32px;
+  margin-left: 370px;
+  background: transparent;
 }
 
 .copy-btn:active {
   color: #10B981;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 600px) {
   #body {
     width: 80%;
     height: 600px;
@@ -99,7 +102,7 @@ button {
 
   .password-suggestion {
     width: 700px;
-    height: 80px;
+    height: 90px;
     font-size: 45px;
     text-align: center;
     justify-content: center;
