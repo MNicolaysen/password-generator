@@ -3,9 +3,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 let displayEl = document.getElementById("display-el");
 
 passwordLength = 12
-
 let password = ""
-
 
 function randomChar() {
   let randChar = Math.floor(Math.random() * characters.length)
@@ -13,6 +11,7 @@ function randomChar() {
 }
 
 function generatePassword() {
+  password = ""
   for ( i = 0; i < passwordLength; i++ ) {
      password += randomChar()
   }
