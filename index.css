@@ -69,3 +69,14 @@ button {
 .copy-btn:active {
   color: #10B981;
 }
+
+@media (min-width: 800px) {
+  #body {
+    width: 80%;
+    text-align: center;
+  }
+
+  .suggestion {
+    justify-content: center;
+  }
+}
