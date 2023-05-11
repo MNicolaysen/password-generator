@@ -10,6 +10,8 @@ body {
   border-radius: 6px;
   padding: 50px;
   height: 315px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 h1 {
@@ -24,6 +26,7 @@ h1 {
 
 #h1-bottom {
   color: #10B981;
+  text-decoration: underline;
 }
 
 p {
@@ -73,7 +76,7 @@ button {
   color: #10B981;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   #body {
     width: 80%;
     height: 600px;
@@ -90,8 +93,8 @@ button {
   }
 
   .description {
-    font-size: 40px;
-    padding-top: 20px;
+    font-size: 35px;
+    padding-top: 10px;
   }
 
   .generate-btn {
@@ -110,5 +113,9 @@ button {
 
   button i {
     font-size: 60px;
+  }
+
+  .copy-btn {
+    margin-left: 570px;
   }
 }
