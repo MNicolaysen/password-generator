@@ -73,10 +73,36 @@ button {
 @media (min-width: 800px) {
   #body {
     width: 80%;
+    height: 600px;
     text-align: center;
   }
 
   .suggestion {
     justify-content: center;
+    margin-top: 40px;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  p {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+
+  .generate-btn {
+    padding: 30px 50px;
+    font-size: 40px;
+    margin-top: 70px;
+  }
+
+  .password-suggestion {
+    width: 700px;
+    height: 70px;
+  }
+
+  button i {
+    font-size: 60px;
   }
 }
